@@ -2,7 +2,7 @@
        Reset 
    ------------- */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,29 +13,36 @@
    ------------- */
 
 
-.conteiner-header{
-    background-color:#ff6900 ;
+.conteiner-header {
+    background-color: #ff6900;
     height: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0px 8px 7px -1px rgba(0,0,0,0.48);
-    
-}
-.age ul, .icon ul{
-    display: flex;
-    list-style-type: none;
-    
+    box-shadow: 0px 8px 7px -1px rgba(0, 0, 0, 0.48);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 200;
+
 }
 
-a{
+.age ul,
+.icon ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+a {
     color: white;
     text-decoration: none;
     padding: 10px;
     font-weight: bold;
 }
 
-.logo{
+.logo {
     height: 30px;
     width: 130px;
 }
@@ -44,96 +51,104 @@ a{
        Main 
    ------------- */
 
-   .conteiner-main{
+.conteiner-main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 60px 270px 50px 270px;
-   }
+}
 
-   .box{
+.box {
     position: relative;
     padding-bottom: 50px;
-   }
+    padding-top: 70px;
 
-   .box img{
+}
+
+.box img {
     height: 650px;
     width: 450px;
-   }
+}
 
-   .prezzo{
+.prezzo {
     display: flex;
-   }
+}
 
-   .sconto{
+.sconto {
     color: red;
     padding-right: 10px;
-   }
+}
 
-   .intero{
+.intero {
     text-decoration: line-through;
-   }
+}
 
-   .percentuale, .sostenibile, .eccezione{
+.percentuale,
+.sostenibile,
+.eccezione {
     color: white;
-    padding: 5px; 
+    padding: 5px;
     font-size: 17px;
-   }
+}
 
-   .percentuale{
+.percentuale {
     background-color: red;
     position: absolute;
     bottom: 150px;
-   }
+}
 
-   .sostenibile{
+.sostenibile {
     background-color: green;
     position: absolute;
     bottom: 150px;
     left: 55px;
-   }
+}
 
-   .eccezione{
+.eccezione {
     background-color: green;
     position: absolute;
     bottom: 150px;
-   }
+}
 
-   .cuore{
+.cuore {
     background-color: white;
     padding: 16px;
     height: 50px;
     width: 50px;
     text-align: center;
     position: absolute;
-    top: 10px;
+    top: 80px;
     right: 0;
-   }
+}
 
-.img1{
+.img1 {
     display: block;
 }
 
-.img2{
+.img2 {
     display: none;
 }
+
 .box:hover .img1 {
     display: none;
 }
+
 .box:hover .img2 {
     display: block;
 }
 
-.fa-regular{
+.fa-regular {
     display: block;
 }
 
-.fa-solid{
+.fa-solid {
     display: none;
 }
+
 .cuore:hover .fa-regular {
     display: none;
 }
+
 .cuore:hover .fa-solid {
     display: block;
 }
@@ -143,8 +158,8 @@ a{
    ------------- */
 
 
-.conteiner-footer{
-    background-color:black;
+.conteiner-footer {
+    background-color: black;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -152,13 +167,15 @@ a{
     padding: 0 270px 0 270px;
 }
 
-.termini ul, .icon ul{
+.termini ul,
+.icon ul {
     display: flex;
     list-style-type: none;
-    
+
 }
 
-.icon h4, .conteiner-footer h4{
-color: white;
-padding: 10px;
+.icon h4,
+.conteiner-footer h4 {
+    color: white;
+    padding: 10px;
 }
