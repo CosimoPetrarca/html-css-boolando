@@ -97,22 +97,68 @@ a{
     background-color: green;
     position: absolute;
     bottom: 150px;
-    
    }
-
-   
 
    .cuore{
     background-color: white;
-    padding: 5px;
+    padding: 16px;
     height: 50px;
     width: 50px;
     text-align: center;
-    line-height: 2.5;
     position: absolute;
     top: 10px;
     right: 0;
-
    }
 
+.img1{
+    display: block;
+}
 
+.img2{
+    display: none;
+}
+.box:hover .img1 {
+    display: none;
+}
+.box:hover .img2 {
+    display: block;
+}
+
+.fa-regular{
+    display: block;
+}
+
+.fa-solid{
+    display: none;
+}
+.cuore:hover .fa-regular {
+    display: none;
+}
+.cuore:hover .fa-solid {
+    display: block;
+}
+
+/* ------------- 
+      Footer  
+   ------------- */
+
+
+.conteiner-footer{
+    background-color:black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 270px 0 270px;
+}
+
+.termini ul, .icon ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.icon h4, .conteiner-footer h4{
+color: white;
+padding: 10px;
+}
