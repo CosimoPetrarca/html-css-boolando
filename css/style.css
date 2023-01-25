@@ -1,5 +1,37 @@
+/* ------------- 
+       Reset 
+   ------------- */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ------------- 
+       Header 
+   ------------- */
+
+
+.conteiner-header{
+    background-color:#ff6900 ;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.age ul, .icon ul{
+    display: flex;
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    height: 30px;
+    width: 130px;
+}
+
