@@ -74,7 +74,7 @@ a{
     text-decoration: line-through;
    }
 
-   .percentuale, .sostenibile{
+   .percentuale, .sostenibile, .eccezione{
     color: white;
     padding: 5px; 
     font-size: 17px;
@@ -92,6 +92,15 @@ a{
     bottom: 150px;
     left: 55px;
    }
+
+   .eccezione{
+    background-color: green;
+    position: absolute;
+    bottom: 150px;
+    
+   }
+
+   
 
    .cuore{
     background-color: white;
